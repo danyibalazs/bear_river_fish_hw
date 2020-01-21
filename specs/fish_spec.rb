@@ -8,10 +8,10 @@ require_relative('../fish')
 class FishTest < MiniTest::Test
 
   def setup
-    @fish = Fish.new("FishyOne")
+    @fish = Fish.new("FishOne")
   end
 
   def test_fish_has_name
-    assert_equal("FishyOne", @fish.name)
+    assert_equal("FishOne", @fish.name)
   end
 end
