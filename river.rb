@@ -1,6 +1,6 @@
 class River
-  def initialize(name, fish_count)
+  def initialize(name, fish_array)
     @name = name
-    @fish_count = fish_count
+    @fish_array = fish_array
   end
 end
